@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:statamic.com)",
+      "WebFetch(domain:statamic.dev)",
+      "WebSearch",
+      "Bash(php:*)",
+      "Bash(composer --version)",
+      "Bash(node:*)",
+      "Bash(composer:*)",
+      "Bash(statamic:*)",
+      "Bash(npm install)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
